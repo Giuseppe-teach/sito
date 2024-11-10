@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Blog di un Coach</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+</head>
+<body>
+    <header>
+        <nav class="container-fluid">
+            <ul>
+                <li><strong>Blog di un Coach</strong></li>
+            </ul>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Chi sono</a></li>
+                <li><a href="#" role="button">Contattami</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="grid">
+            <section>
+                <hgroup>
+                    <h2>Benvenuti nel mio blog</h2>
+                    <h3>Consigli, strategie e ispirazione per migliorare la tua vita</h3>
+                </hgroup>
+                <p>Attraverso questo blog, esploreremo insieme tecniche di crescita personale, motivazione e successo. Scopri nuovi articoli ogni settimana!</p>
+                <figure>
+                    <img src="https://source.unsplash.com/800x400/?motivation,success" alt="Motivazione e successo">
+                    <figcaption><a href="https://unsplash.com/" target="_blank">Immagine da Unsplash</a></figcaption>
+                </figure>
+                <h3>Ultimi articoli</h3>
+                <p><strong>5 passi per migliorare la tua mentalità</strong> - Scopri come una mentalità positiva può trasformare la tua vita.</p>
+                <h3>Articolo in evidenza</h3>
+                <p><strong>Perché la resilienza è la chiave per il successo</strong> - Analizziamo l'importanza della resilienza nel percorso verso i tuoi obiettivi.</p>
+            </section>
+        </div>
+    </main>
+    <section aria-label="Subscribe example">
+        <div class="container">
+            <article>
+                <hgroup>
+                    <h2>Iscriviti alla Newsletter</h2>
+                    <h3>Rimani aggiornato con i migliori consigli per la tua crescita</h3>
+                </hgroup>
+                <form class="grid">
+                    <input type="text" id="firstname" name="firstname" placeholder="Nome" aria-label="Il tuo nome" required />
+                    <input type="email" id="email" name="email" placeholder="Email" aria-label="La tua email" required />
+                    <button type="submit" onclick="event.preventDefault()">Iscriviti</button>
+                </form>
+            </article>
+        </div>
+    </section>
+    <footer class="container">
+        <small><a href="#">Termini e condizioni</a> • <a href="#">Privacy Policy</a></small>
+    </footer>
+</body>
+</html>
