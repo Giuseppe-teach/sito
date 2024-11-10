@@ -1,0 +1,5 @@
+// script.js
+
+function prenotaAppuntamento() {
+    alert("Grazie per aver prenotato un appuntamento! Sarai contattato presto.");
+}
